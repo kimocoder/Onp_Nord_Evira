@@ -393,11 +393,6 @@
 			reg = <0x0 0x86a00000 0x0 0x500000>;
 		};
 
-		pil_cvp_mem: pil_cvp_region@86f00000 {
-			compatible = "removed-dma-pool";
-			no-map;
-			reg = <0x0 0x86f00000 0x0 0x500000>;
-		};
 
 		pil_cdsp_mem: pil_cdsp_region@87400000 {
 			compatible = "removed-dma-pool";
@@ -511,10 +506,6 @@
 			label = "dfps_data_region";
 		};
 
-		disp_rdump_memory: disp_rdump_region@0xa0000000 {
-			reg = <0x0 0xA0000000 0x0 0x02300000>;
-			label = "disp_rdump_region";
-		};
 
 		dump_mem: mem_dump_region {
 			compatible = "shared-dma-pool";
